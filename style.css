@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background-color: coral;
+    color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70rem;
+    background-color: wheat;
+    border-radius: 0.7rem;
+    padding: 3rem;
+}
+
+.wrapper {
+    border-radius: 0.5rem;
+    border: 1px solid #bbb;
+}
+
+.wrapper .text-input {
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input {
+    border-left: 1px solid #bbb;
+    border-radius: 0;
+}
+
+.text-input textarea {
+    height: 25rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border: none;
+    border-right: 1px solid #bbb;
+    outline: none;
+    background: none;
+    resize: none;
+}
+
+.controls,
+li,
+.icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    list-style: none;
+    padding: 1rem 1.5rem;
+}
+
+.controls .row.from .icons {
+    padding-right: 1.5rem;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons {
+    padding-left: 1.5rem;
+    border-left: 1px solid #bbb;
+}
+
+.controls .icons i {
+    width: 5rem;
+    color: #9f9f9f;
+    font-size: 1.4rem;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .icons {
+    width: 40%;
+}
+
+.controls .row select {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.8rem;
+}
+
+.controls .exchange {
+    color: #9f9f9f;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.container button {
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: wheat;
+    font-weight: 600;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+}
